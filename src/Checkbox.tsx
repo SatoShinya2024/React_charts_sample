@@ -1,6 +1,6 @@
-import React from "react";
+import React, {ChangeEvent, ChangeEventHandler, useState} from "react";
 
-function Checkbox(prop: { Code: number; Name: string }) {
+function Checkbox(prop: { Code: number; Name: string; Num:number; doCheck:ChangeEventHandler }) {
   const checkbox_style = {
     margin:"0 5px"
   }
@@ -12,7 +12,7 @@ function Checkbox(prop: { Code: number; Name: string }) {
 
   return (
     <div>
-      <input type="checkbox" value={prop.Code} style={checkbox_style} name={name} id={name}/>
+      <input type="checkbox" value={prop.Num} style={checkbox_style} name={name} id={name} onChange={prop.doCheck}/>
       <label style={label_style} htmlFor={name}>{prop.Name}</label>
     </div>
   );
