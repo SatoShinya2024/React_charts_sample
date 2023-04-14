@@ -3,7 +3,6 @@ import logo from "./logo.svg";
 import "./App.css";
 import Checkbox from "./Checkbox";
 import Prefecture from "./Prefecture";
-import Chart from "./Chart";
 
 function App() {
   return (
