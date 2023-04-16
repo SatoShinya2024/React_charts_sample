@@ -1,7 +1,5 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import Checkbox from "./Checkbox";
 import Prefecture from "./Prefecture";
 
 function App() {
@@ -9,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">都道府県別　総人口推移グラフ</header>
       <div>
-      <Prefecture />
+        <Prefecture />
       </div>
       {/* <footer>
         <p>出典：RESAS（地域経済分析システム）</p>
