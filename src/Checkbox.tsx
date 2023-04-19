@@ -6,13 +6,6 @@ function Checkbox(prop: {
   Num: number;
   doCheck: ChangeEventHandler;
 }) {
-  const checkbox_style = {
-    margin: "0 5px",
-  };
-  const label_style = {
-    height: "100%",
-  };
-
   let name = "prefecture" + prop.Code;
 
   return (
@@ -20,12 +13,11 @@ function Checkbox(prop: {
       <input
         type="checkbox"
         value={prop.Num}
-        style={checkbox_style}
         name={name}
         id={name}
         onChange={prop.doCheck}
       />
-      <label style={label_style} htmlFor={name}>
+      <label htmlFor={name}>
         {prop.Name}
       </label>
     </div>

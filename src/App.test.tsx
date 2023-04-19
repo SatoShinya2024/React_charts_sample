@@ -1,9 +1,10 @@
-import React from "react";
 import { render, screen } from "@testing-library/react";
 import App from "./App";
 
-test("renders learn react link", () => {
+test("renders selectBox", () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const header = screen.getByText(/都道府県別/i);
+  expect(header).toBeInTheDocument();
+  // const linkElement = screen.getByText(/北海道/i);
+  // expect(linkElement).toBeInTheDocument();
 });

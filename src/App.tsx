@@ -9,10 +9,10 @@ function App() {
       <div>
         <Prefecture />
       </div>
-      {/* <footer>
+      <footer>
         <p>出典：RESAS（地域経済分析システム）</p>
         <p>RESAS（地域経済分析システム）を加工して作成</p>
-      </footer> */}
+      </footer>
     </div>
   );
 }

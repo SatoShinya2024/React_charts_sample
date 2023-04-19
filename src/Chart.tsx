@@ -79,7 +79,6 @@ function Chart(prop: { selecteddata: string; selectedPrefecture: prefData[] }) {
   const color_array = [
     "#0000ff",
     "#008000",
-    "#ffff00",
     "#ff0000",
     "#00ffff",
     "#00ff00",
@@ -126,6 +125,7 @@ function Chart(prop: { selecteddata: string; selectedPrefecture: prefData[] }) {
     "#ffd700",
     "#d8bfd8",
     "#2f4f4f",
+    "#ffff00",
   ];
   const [Colors, setColors] = useState(color_array);
   //APIからデータを取得し、それをグラフ作成用にまとめる。
@@ -144,7 +144,6 @@ function Chart(prop: { selecteddata: string; selectedPrefecture: prefData[] }) {
     }[] = [];
     for (let i = 1; i < 48; i++) {
       //APIから各都道府県のデータを取得
-      console.log("useChartData");
       let url =
         "https://opendata.resas-portal.go.jp/api/v1/population/composition/perYear?cityCode=-&prefCode=" +
         i;
@@ -681,7 +680,6 @@ function Chart(prop: { selecteddata: string; selectedPrefecture: prefData[] }) {
         {prop.selectedPrefecture.map((value, key) => {
           //グラフの色をここで決定。
           let color = Colors[key];
-          console.log(Colors.length);
           return (
             <Line
               type="monotone"

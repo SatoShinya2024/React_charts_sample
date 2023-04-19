@@ -29,7 +29,7 @@ function Prefecture() {
   }, []);
 
   //チェックボックスにチェックがされた時、その都道府県コードと名前をフックに格納するためのメソッド
-  const docheck = (e: any) => {
+  const docheck = () => {
     //全てのチェックボックスを確認し、チェックがついているものをフックに格納していく。
     let checked_array: { prefCode: number; prefName: string }[] = [];
     for (let item of prefectures) {
@@ -39,12 +39,10 @@ function Prefecture() {
       }
     }
     setCheckedPrefecture(checked_array);
-    console.log("docheck");
-    console.log(checkedPrefecture);
   };
 
   //セレクトボックスを変更したときにデータを変更するためのメソッド
-  const doSelect = (e: any) => {
+  const doSelect = () => {
     let data =
       document.querySelector<HTMLSelectElement>("#selectedData")?.value;
     if (data === "YP" || data === "WP" || data === "GP") {
@@ -54,24 +52,10 @@ function Prefecture() {
     }
   };
 
-  const prefectures_style = {
-    margin: "0 auto",
-    width: "80%",
-    display: "grid",
-    gridTemplateColumns: "17% 17% 17% 17% 17%",
-    gridTemplateRows: "7% 7% 7% 7% 7% 7% 7% 7% 7% 7%",
-    gap: "3%",
-  };
-
-  const chart_style = {
-    height: "500px",
-  };
-
   return (
-    <div>
-      <div style={prefectures_style}>
+    <div className="large-wrapper">
+      <div className="checkbox-wrapper">
         {prefectures.map((value, key) => {
-          console.log("checkbox");
           return (
             <Checkbox
               Code={value.prefCode}
@@ -83,14 +67,16 @@ function Prefecture() {
           );
         })}
       </div>
-      <div>
-        <Selectbox doSelect={doSelect} />
-      </div>
-      <div style={chart_style} id="chart_container">
-        <Chart
-          selecteddata={selectedData}
-          selectedPrefecture={checkedPrefecture}
-        />
+      <div className="selectbox-and-chart-wrapper">
+        <div className="selectbox-wrapper">
+          <Selectbox doSelect={doSelect} />
+        </div>
+        <div id="chart_container" className="Chart-wrapper">
+          <Chart
+            selecteddata={selectedData}
+            selectedPrefecture={checkedPrefecture}
+          />
+        </div>
       </div>
     </div>
   );
