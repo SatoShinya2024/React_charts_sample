@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 import Checkbox from "../Checkbox";
 import Chart from "../Chart";
 import Selectbox from "../Selectbox";
-
+//APIリクエストを行う代わりに、ダミーのデータを表示させるためのモック関数
 function Prefecture() {
   //グラフを書く上で必要なフックを定義
-  //都道府県の名前を羅列したフック
+  //都道府県の名前を羅列したフック。テスト用なので、8個だけにする。
   let prefecture_array: { prefCode: number; prefName: string }[] = [
     { prefCode: 1, prefName: "北海道" },
     { prefCode: 2, prefName: "青森県" },

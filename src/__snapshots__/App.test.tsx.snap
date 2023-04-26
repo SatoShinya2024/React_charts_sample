@@ -136,7 +136,9 @@ Object {
               <select
                 id="selectedData"
               >
-                <option>
+                <option
+                  value="TP"
+                >
                   総人口
                 </option>
                 <option
@@ -1244,7 +1246,9 @@ Object {
             <select
               id="selectedData"
             >
-              <option>
+              <option
+                value="TP"
+              >
                 総人口
               </option>
               <option
@@ -2416,7 +2420,9 @@ Object {
               <select
                 id="selectedData"
               >
-                <option>
+                <option
+                  value="TP"
+                >
                   総人口
                 </option>
                 <option
@@ -3516,7 +3522,9 @@ Object {
             <select
               id="selectedData"
             >
-              <option>
+              <option
+                value="TP"
+              >
                 総人口
               </option>
               <option
@@ -4680,7 +4688,9 @@ Object {
               <select
                 id="selectedData"
               >
-                <option>
+                <option
+                  value="TP"
+                >
                   総人口
                 </option>
                 <option
@@ -5780,7 +5790,9 @@ Object {
             <select
               id="selectedData"
             >
-              <option>
+              <option
+                value="TP"
+              >
                 総人口
               </option>
               <option
@@ -6944,7 +6956,9 @@ Object {
               <select
                 id="selectedData"
               >
-                <option>
+                <option
+                  value="TP"
+                >
                   総人口
                 </option>
                 <option
@@ -8044,7 +8058,9 @@ Object {
             <select
               id="selectedData"
             >
-              <option>
+              <option
+                value="TP"
+              >
                 総人口
               </option>
               <option
@@ -9072,6 +9088,4262 @@ Object {
 }
 `;
 
+exports[`click checkbox and change selectbox 5`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <span
+      aria-hidden="true"
+      id="recharts_measurement_span"
+      style="position: absolute; top: -20000px; left: 0px; padding: 0px; margin: 0px; white-space: pre;"
+    >
+      10000
+    </span>
+    <div>
+      <div
+        class="large-wrapper"
+      >
+        <div
+          class="checkbox-wrapper"
+        >
+          <div>
+            <input
+              id="prefecture1"
+              name="prefecture1"
+              type="checkbox"
+              value="0"
+            />
+            <label
+              for="prefecture1"
+            >
+              北海道
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture2"
+              name="prefecture2"
+              type="checkbox"
+              value="1"
+            />
+            <label
+              for="prefecture2"
+            >
+              青森県
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture3"
+              name="prefecture3"
+              type="checkbox"
+              value="2"
+            />
+            <label
+              for="prefecture3"
+            >
+              岩手県
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture4"
+              name="prefecture4"
+              type="checkbox"
+              value="3"
+            />
+            <label
+              for="prefecture4"
+            >
+              宮城県
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture5"
+              name="prefecture5"
+              type="checkbox"
+              value="4"
+            />
+            <label
+              for="prefecture5"
+            >
+              秋田県
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture6"
+              name="prefecture6"
+              type="checkbox"
+              value="5"
+            />
+            <label
+              for="prefecture6"
+            >
+              山形県
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture7"
+              name="prefecture7"
+              type="checkbox"
+              value="6"
+            />
+            <label
+              for="prefecture7"
+            >
+              福島県
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture8"
+              name="prefecture8"
+              type="checkbox"
+              value="7"
+            />
+            <label
+              for="prefecture8"
+            >
+              茨城県
+            </label>
+          </div>
+        </div>
+        <div
+          class="selectbox-and-chart-wrapper"
+        >
+          <div
+            class="selectbox-wrapper"
+          >
+            <div>
+              <label>
+                表示中のデータ：
+              </label>
+              <select
+                id="selectedData"
+              >
+                <option
+                  value="TP"
+                >
+                  総人口
+                </option>
+                <option
+                  value="YP"
+                >
+                  年少人口
+                </option>
+                <option
+                  value="WP"
+                >
+                  生産年齢人口
+                </option>
+                <option
+                  value="GP"
+                >
+                  老年人口
+                </option>
+              </select>
+            </div>
+          </div>
+          <div
+            class="Chart-wrapper"
+            id="chart_container"
+          >
+            <div
+              class="recharts-wrapper"
+              role="region"
+              style="position: relative; cursor: default; width: 500px; height: 300px;"
+            >
+              <svg
+                class="recharts-surface"
+                height="300"
+                viewBox="0 0 500 300"
+                width="500"
+              >
+                <title />
+                <desc />
+                <defs>
+                  <clippath
+                    id="recharts2-clip"
+                  >
+                    <rect
+                      height="260"
+                      width="390"
+                      x="80"
+                      y="5"
+                    />
+                  </clippath>
+                </defs>
+                <g
+                  class="recharts-cartesian-grid"
+                >
+                  <g
+                    class="recharts-cartesian-grid-horizontal"
+                  >
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="80"
+                      x2="470"
+                      y="5"
+                      y1="5"
+                      y2="5"
+                    />
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="80"
+                      x2="470"
+                      y="5"
+                      y1="265"
+                      y2="265"
+                    />
+                  </g>
+                  <g
+                    class="recharts-cartesian-grid-vertical"
+                  >
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="80"
+                      x2="80"
+                      y="5"
+                      y1="5"
+                      y2="265"
+                    />
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="177.5"
+                      x2="177.5"
+                      y="5"
+                      y1="5"
+                      y2="265"
+                    />
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="275"
+                      x2="275"
+                      y="5"
+                      y1="5"
+                      y2="265"
+                    />
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="372.5"
+                      x2="372.5"
+                      y="5"
+                      y1="5"
+                      y2="265"
+                    />
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="470"
+                      x2="470"
+                      y="5"
+                      y1="5"
+                      y2="265"
+                    />
+                  </g>
+                </g>
+                <g
+                  class="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"
+                >
+                  <line
+                    class="recharts-cartesian-axis-line"
+                    fill="none"
+                    height="30"
+                    orientation="bottom"
+                    stroke="#666"
+                    width="390"
+                    x="80"
+                    x1="80"
+                    x2="470"
+                    y="265"
+                    y1="265"
+                    y2="265"
+                  />
+                  <g
+                    class="recharts-cartesian-axis-ticks"
+                  >
+                    <g
+                      class="recharts-layer recharts-cartesian-axis-tick"
+                    >
+                      <line
+                        class="recharts-cartesian-axis-tick-line"
+                        fill="none"
+                        height="30"
+                        orientation="bottom"
+                        stroke="#666"
+                        width="390"
+                        x="80"
+                        x1="80"
+                        x2="80"
+                        y="265"
+                        y1="271"
+                        y2="265"
+                      />
+                      <text
+                        class="recharts-text recharts-cartesian-axis-tick-value"
+                        fill="#666"
+                        height="30"
+                        orientation="bottom"
+                        stroke="none"
+                        text-anchor="middle"
+                        width="390"
+                        x="80"
+                        y="273"
+                      >
+                        <tspan
+                          dy="0.71em"
+                          x="80"
+                        >
+                          1960
+                        </tspan>
+                      </text>
+                    </g>
+                    <g
+                      class="recharts-layer recharts-cartesian-axis-tick"
+                    >
+                      <line
+                        class="recharts-cartesian-axis-tick-line"
+                        fill="none"
+                        height="30"
+                        orientation="bottom"
+                        stroke="#666"
+                        width="390"
+                        x="80"
+                        x1="177.5"
+                        x2="177.5"
+                        y="265"
+                        y1="271"
+                        y2="265"
+                      />
+                      <text
+                        class="recharts-text recharts-cartesian-axis-tick-value"
+                        fill="#666"
+                        height="30"
+                        orientation="bottom"
+                        stroke="none"
+                        text-anchor="middle"
+                        width="390"
+                        x="177.5"
+                        y="273"
+                      >
+                        <tspan
+                          dy="0.71em"
+                          x="177.5"
+                        >
+                          1965
+                        </tspan>
+                      </text>
+                    </g>
+                    <g
+                      class="recharts-layer recharts-cartesian-axis-tick"
+                    >
+                      <line
+                        class="recharts-cartesian-axis-tick-line"
+                        fill="none"
+                        height="30"
+                        orientation="bottom"
+                        stroke="#666"
+                        width="390"
+                        x="80"
+                        x1="275"
+                        x2="275"
+                        y="265"
+                        y1="271"
+                        y2="265"
+                      />
+                      <text
+                        class="recharts-text recharts-cartesian-axis-tick-value"
+                        fill="#666"
+                        height="30"
+                        orientation="bottom"
+                        stroke="none"
+                        text-anchor="middle"
+                        width="390"
+                        x="275"
+                        y="273"
+                      >
+                        <tspan
+                          dy="0.71em"
+                          x="275"
+                        >
+                          1970
+                        </tspan>
+                      </text>
+                    </g>
+                    <g
+                      class="recharts-layer recharts-cartesian-axis-tick"
+                    >
+                      <line
+                        class="recharts-cartesian-axis-tick-line"
+                        fill="none"
+                        height="30"
+                        orientation="bottom"
+                        stroke="#666"
+                        width="390"
+                        x="80"
+                        x1="372.5"
+                        x2="372.5"
+                        y="265"
+                        y1="271"
+                        y2="265"
+                      />
+                      <text
+                        class="recharts-text recharts-cartesian-axis-tick-value"
+                        fill="#666"
+                        height="30"
+                        orientation="bottom"
+                        stroke="none"
+                        text-anchor="middle"
+                        width="390"
+                        x="372.5"
+                        y="273"
+                      >
+                        <tspan
+                          dy="0.71em"
+                          x="372.5"
+                        >
+                          1975
+                        </tspan>
+                      </text>
+                    </g>
+                    <g
+                      class="recharts-layer recharts-cartesian-axis-tick"
+                    >
+                      <line
+                        class="recharts-cartesian-axis-tick-line"
+                        fill="none"
+                        height="30"
+                        orientation="bottom"
+                        stroke="#666"
+                        width="390"
+                        x="80"
+                        x1="470"
+                        x2="470"
+                        y="265"
+                        y1="271"
+                        y2="265"
+                      />
+                      <text
+                        class="recharts-text recharts-cartesian-axis-tick-value"
+                        fill="#666"
+                        height="30"
+                        orientation="bottom"
+                        stroke="none"
+                        text-anchor="middle"
+                        width="390"
+                        x="470"
+                        y="273"
+                      >
+                        <tspan
+                          dy="0.71em"
+                          x="470"
+                        >
+                          1980
+                        </tspan>
+                      </text>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <div
+                class="recharts-legend-wrapper"
+                style="position: absolute; width: 450px; height: auto; left: 20px; bottom: 5px;"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="large-wrapper"
+    >
+      <div
+        class="checkbox-wrapper"
+      >
+        <div>
+          <input
+            id="prefecture1"
+            name="prefecture1"
+            type="checkbox"
+            value="0"
+          />
+          <label
+            for="prefecture1"
+          >
+            北海道
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture2"
+            name="prefecture2"
+            type="checkbox"
+            value="1"
+          />
+          <label
+            for="prefecture2"
+          >
+            青森県
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture3"
+            name="prefecture3"
+            type="checkbox"
+            value="2"
+          />
+          <label
+            for="prefecture3"
+          >
+            岩手県
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture4"
+            name="prefecture4"
+            type="checkbox"
+            value="3"
+          />
+          <label
+            for="prefecture4"
+          >
+            宮城県
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture5"
+            name="prefecture5"
+            type="checkbox"
+            value="4"
+          />
+          <label
+            for="prefecture5"
+          >
+            秋田県
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture6"
+            name="prefecture6"
+            type="checkbox"
+            value="5"
+          />
+          <label
+            for="prefecture6"
+          >
+            山形県
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture7"
+            name="prefecture7"
+            type="checkbox"
+            value="6"
+          />
+          <label
+            for="prefecture7"
+          >
+            福島県
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture8"
+            name="prefecture8"
+            type="checkbox"
+            value="7"
+          />
+          <label
+            for="prefecture8"
+          >
+            茨城県
+          </label>
+        </div>
+      </div>
+      <div
+        class="selectbox-and-chart-wrapper"
+      >
+        <div
+          class="selectbox-wrapper"
+        >
+          <div>
+            <label>
+              表示中のデータ：
+            </label>
+            <select
+              id="selectedData"
+            >
+              <option
+                value="TP"
+              >
+                総人口
+              </option>
+              <option
+                value="YP"
+              >
+                年少人口
+              </option>
+              <option
+                value="WP"
+              >
+                生産年齢人口
+              </option>
+              <option
+                value="GP"
+              >
+                老年人口
+              </option>
+            </select>
+          </div>
+        </div>
+        <div
+          class="Chart-wrapper"
+          id="chart_container"
+        >
+          <div
+            class="recharts-wrapper"
+            role="region"
+            style="position: relative; cursor: default; width: 500px; height: 300px;"
+          >
+            <svg
+              class="recharts-surface"
+              height="300"
+              viewBox="0 0 500 300"
+              width="500"
+            >
+              <title />
+              <desc />
+              <defs>
+                <clippath
+                  id="recharts2-clip"
+                >
+                  <rect
+                    height="260"
+                    width="390"
+                    x="80"
+                    y="5"
+                  />
+                </clippath>
+              </defs>
+              <g
+                class="recharts-cartesian-grid"
+              >
+                <g
+                  class="recharts-cartesian-grid-horizontal"
+                >
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="80"
+                    x2="470"
+                    y="5"
+                    y1="5"
+                    y2="5"
+                  />
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="80"
+                    x2="470"
+                    y="5"
+                    y1="265"
+                    y2="265"
+                  />
+                </g>
+                <g
+                  class="recharts-cartesian-grid-vertical"
+                >
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="80"
+                    x2="80"
+                    y="5"
+                    y1="5"
+                    y2="265"
+                  />
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="177.5"
+                    x2="177.5"
+                    y="5"
+                    y1="5"
+                    y2="265"
+                  />
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="275"
+                    x2="275"
+                    y="5"
+                    y1="5"
+                    y2="265"
+                  />
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="372.5"
+                    x2="372.5"
+                    y="5"
+                    y1="5"
+                    y2="265"
+                  />
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="470"
+                    x2="470"
+                    y="5"
+                    y1="5"
+                    y2="265"
+                  />
+                </g>
+              </g>
+              <g
+                class="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"
+              >
+                <line
+                  class="recharts-cartesian-axis-line"
+                  fill="none"
+                  height="30"
+                  orientation="bottom"
+                  stroke="#666"
+                  width="390"
+                  x="80"
+                  x1="80"
+                  x2="470"
+                  y="265"
+                  y1="265"
+                  y2="265"
+                />
+                <g
+                  class="recharts-cartesian-axis-ticks"
+                >
+                  <g
+                    class="recharts-layer recharts-cartesian-axis-tick"
+                  >
+                    <line
+                      class="recharts-cartesian-axis-tick-line"
+                      fill="none"
+                      height="30"
+                      orientation="bottom"
+                      stroke="#666"
+                      width="390"
+                      x="80"
+                      x1="80"
+                      x2="80"
+                      y="265"
+                      y1="271"
+                      y2="265"
+                    />
+                    <text
+                      class="recharts-text recharts-cartesian-axis-tick-value"
+                      fill="#666"
+                      height="30"
+                      orientation="bottom"
+                      stroke="none"
+                      text-anchor="middle"
+                      width="390"
+                      x="80"
+                      y="273"
+                    >
+                      <tspan
+                        dy="0.71em"
+                        x="80"
+                      >
+                        1960
+                      </tspan>
+                    </text>
+                  </g>
+                  <g
+                    class="recharts-layer recharts-cartesian-axis-tick"
+                  >
+                    <line
+                      class="recharts-cartesian-axis-tick-line"
+                      fill="none"
+                      height="30"
+                      orientation="bottom"
+                      stroke="#666"
+                      width="390"
+                      x="80"
+                      x1="177.5"
+                      x2="177.5"
+                      y="265"
+                      y1="271"
+                      y2="265"
+                    />
+                    <text
+                      class="recharts-text recharts-cartesian-axis-tick-value"
+                      fill="#666"
+                      height="30"
+                      orientation="bottom"
+                      stroke="none"
+                      text-anchor="middle"
+                      width="390"
+                      x="177.5"
+                      y="273"
+                    >
+                      <tspan
+                        dy="0.71em"
+                        x="177.5"
+                      >
+                        1965
+                      </tspan>
+                    </text>
+                  </g>
+                  <g
+                    class="recharts-layer recharts-cartesian-axis-tick"
+                  >
+                    <line
+                      class="recharts-cartesian-axis-tick-line"
+                      fill="none"
+                      height="30"
+                      orientation="bottom"
+                      stroke="#666"
+                      width="390"
+                      x="80"
+                      x1="275"
+                      x2="275"
+                      y="265"
+                      y1="271"
+                      y2="265"
+                    />
+                    <text
+                      class="recharts-text recharts-cartesian-axis-tick-value"
+                      fill="#666"
+                      height="30"
+                      orientation="bottom"
+                      stroke="none"
+                      text-anchor="middle"
+                      width="390"
+                      x="275"
+                      y="273"
+                    >
+                      <tspan
+                        dy="0.71em"
+                        x="275"
+                      >
+                        1970
+                      </tspan>
+                    </text>
+                  </g>
+                  <g
+                    class="recharts-layer recharts-cartesian-axis-tick"
+                  >
+                    <line
+                      class="recharts-cartesian-axis-tick-line"
+                      fill="none"
+                      height="30"
+                      orientation="bottom"
+                      stroke="#666"
+                      width="390"
+                      x="80"
+                      x1="372.5"
+                      x2="372.5"
+                      y="265"
+                      y1="271"
+                      y2="265"
+                    />
+                    <text
+                      class="recharts-text recharts-cartesian-axis-tick-value"
+                      fill="#666"
+                      height="30"
+                      orientation="bottom"
+                      stroke="none"
+                      text-anchor="middle"
+                      width="390"
+                      x="372.5"
+                      y="273"
+                    >
+                      <tspan
+                        dy="0.71em"
+                        x="372.5"
+                      >
+                        1975
+                      </tspan>
+                    </text>
+                  </g>
+                  <g
+                    class="recharts-layer recharts-cartesian-axis-tick"
+                  >
+                    <line
+                      class="recharts-cartesian-axis-tick-line"
+                      fill="none"
+                      height="30"
+                      orientation="bottom"
+                      stroke="#666"
+                      width="390"
+                      x="80"
+                      x1="470"
+                      x2="470"
+                      y="265"
+                      y1="271"
+                      y2="265"
+                    />
+                    <text
+                      class="recharts-text recharts-cartesian-axis-tick-value"
+                      fill="#666"
+                      height="30"
+                      orientation="bottom"
+                      stroke="none"
+                      text-anchor="middle"
+                      width="390"
+                      x="470"
+                      y="273"
+                    >
+                      <tspan
+                        dy="0.71em"
+                        x="470"
+                      >
+                        1980
+                      </tspan>
+                    </text>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div
+              class="recharts-legend-wrapper"
+              style="position: absolute; width: 450px; height: auto; left: 20px; bottom: 5px;"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`click checkbox and change selectbox 6`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <span
+      aria-hidden="true"
+      id="recharts_measurement_span"
+      style="position: absolute; top: -20000px; left: 0px; padding: 0px; margin: 0px; white-space: pre;"
+    >
+      10000
+    </span>
+    <div>
+      <div
+        class="large-wrapper"
+      >
+        <div
+          class="checkbox-wrapper"
+        >
+          <div>
+            <input
+              id="prefecture1"
+              name="prefecture1"
+              type="checkbox"
+              value="0"
+            />
+            <label
+              for="prefecture1"
+            >
+              北海道
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture2"
+              name="prefecture2"
+              type="checkbox"
+              value="1"
+            />
+            <label
+              for="prefecture2"
+            >
+              青森県
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture3"
+              name="prefecture3"
+              type="checkbox"
+              value="2"
+            />
+            <label
+              for="prefecture3"
+            >
+              岩手県
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture4"
+              name="prefecture4"
+              type="checkbox"
+              value="3"
+            />
+            <label
+              for="prefecture4"
+            >
+              宮城県
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture5"
+              name="prefecture5"
+              type="checkbox"
+              value="4"
+            />
+            <label
+              for="prefecture5"
+            >
+              秋田県
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture6"
+              name="prefecture6"
+              type="checkbox"
+              value="5"
+            />
+            <label
+              for="prefecture6"
+            >
+              山形県
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture7"
+              name="prefecture7"
+              type="checkbox"
+              value="6"
+            />
+            <label
+              for="prefecture7"
+            >
+              福島県
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture8"
+              name="prefecture8"
+              type="checkbox"
+              value="7"
+            />
+            <label
+              for="prefecture8"
+            >
+              茨城県
+            </label>
+          </div>
+        </div>
+        <div
+          class="selectbox-and-chart-wrapper"
+        >
+          <div
+            class="selectbox-wrapper"
+          >
+            <div>
+              <label>
+                表示中のデータ：
+              </label>
+              <select
+                id="selectedData"
+              >
+                <option
+                  value="TP"
+                >
+                  総人口
+                </option>
+                <option
+                  value="YP"
+                >
+                  年少人口
+                </option>
+                <option
+                  value="WP"
+                >
+                  生産年齢人口
+                </option>
+                <option
+                  value="GP"
+                >
+                  老年人口
+                </option>
+              </select>
+            </div>
+          </div>
+          <div
+            class="Chart-wrapper"
+            id="chart_container"
+          >
+            <div
+              class="recharts-wrapper"
+              role="region"
+              style="position: relative; cursor: default; width: 500px; height: 300px;"
+            >
+              <svg
+                class="recharts-surface"
+                height="300"
+                viewBox="0 0 500 300"
+                width="500"
+              >
+                <title />
+                <desc />
+                <defs>
+                  <clippath
+                    id="recharts2-clip"
+                  >
+                    <rect
+                      height="260"
+                      width="390"
+                      x="80"
+                      y="5"
+                    />
+                  </clippath>
+                </defs>
+                <g
+                  class="recharts-cartesian-grid"
+                >
+                  <g
+                    class="recharts-cartesian-grid-horizontal"
+                  >
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="80"
+                      x2="470"
+                      y="5"
+                      y1="5"
+                      y2="5"
+                    />
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="80"
+                      x2="470"
+                      y="5"
+                      y1="265"
+                      y2="265"
+                    />
+                  </g>
+                  <g
+                    class="recharts-cartesian-grid-vertical"
+                  >
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="80"
+                      x2="80"
+                      y="5"
+                      y1="5"
+                      y2="265"
+                    />
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="177.5"
+                      x2="177.5"
+                      y="5"
+                      y1="5"
+                      y2="265"
+                    />
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="275"
+                      x2="275"
+                      y="5"
+                      y1="5"
+                      y2="265"
+                    />
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="372.5"
+                      x2="372.5"
+                      y="5"
+                      y1="5"
+                      y2="265"
+                    />
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="470"
+                      x2="470"
+                      y="5"
+                      y1="5"
+                      y2="265"
+                    />
+                  </g>
+                </g>
+                <g
+                  class="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"
+                >
+                  <line
+                    class="recharts-cartesian-axis-line"
+                    fill="none"
+                    height="30"
+                    orientation="bottom"
+                    stroke="#666"
+                    width="390"
+                    x="80"
+                    x1="80"
+                    x2="470"
+                    y="265"
+                    y1="265"
+                    y2="265"
+                  />
+                  <g
+                    class="recharts-cartesian-axis-ticks"
+                  >
+                    <g
+                      class="recharts-layer recharts-cartesian-axis-tick"
+                    >
+                      <line
+                        class="recharts-cartesian-axis-tick-line"
+                        fill="none"
+                        height="30"
+                        orientation="bottom"
+                        stroke="#666"
+                        width="390"
+                        x="80"
+                        x1="80"
+                        x2="80"
+                        y="265"
+                        y1="271"
+                        y2="265"
+                      />
+                      <text
+                        class="recharts-text recharts-cartesian-axis-tick-value"
+                        fill="#666"
+                        height="30"
+                        orientation="bottom"
+                        stroke="none"
+                        text-anchor="middle"
+                        width="390"
+                        x="80"
+                        y="273"
+                      >
+                        <tspan
+                          dy="0.71em"
+                          x="80"
+                        >
+                          1960
+                        </tspan>
+                      </text>
+                    </g>
+                    <g
+                      class="recharts-layer recharts-cartesian-axis-tick"
+                    >
+                      <line
+                        class="recharts-cartesian-axis-tick-line"
+                        fill="none"
+                        height="30"
+                        orientation="bottom"
+                        stroke="#666"
+                        width="390"
+                        x="80"
+                        x1="177.5"
+                        x2="177.5"
+                        y="265"
+                        y1="271"
+                        y2="265"
+                      />
+                      <text
+                        class="recharts-text recharts-cartesian-axis-tick-value"
+                        fill="#666"
+                        height="30"
+                        orientation="bottom"
+                        stroke="none"
+                        text-anchor="middle"
+                        width="390"
+                        x="177.5"
+                        y="273"
+                      >
+                        <tspan
+                          dy="0.71em"
+                          x="177.5"
+                        >
+                          1965
+                        </tspan>
+                      </text>
+                    </g>
+                    <g
+                      class="recharts-layer recharts-cartesian-axis-tick"
+                    >
+                      <line
+                        class="recharts-cartesian-axis-tick-line"
+                        fill="none"
+                        height="30"
+                        orientation="bottom"
+                        stroke="#666"
+                        width="390"
+                        x="80"
+                        x1="275"
+                        x2="275"
+                        y="265"
+                        y1="271"
+                        y2="265"
+                      />
+                      <text
+                        class="recharts-text recharts-cartesian-axis-tick-value"
+                        fill="#666"
+                        height="30"
+                        orientation="bottom"
+                        stroke="none"
+                        text-anchor="middle"
+                        width="390"
+                        x="275"
+                        y="273"
+                      >
+                        <tspan
+                          dy="0.71em"
+                          x="275"
+                        >
+                          1970
+                        </tspan>
+                      </text>
+                    </g>
+                    <g
+                      class="recharts-layer recharts-cartesian-axis-tick"
+                    >
+                      <line
+                        class="recharts-cartesian-axis-tick-line"
+                        fill="none"
+                        height="30"
+                        orientation="bottom"
+                        stroke="#666"
+                        width="390"
+                        x="80"
+                        x1="372.5"
+                        x2="372.5"
+                        y="265"
+                        y1="271"
+                        y2="265"
+                      />
+                      <text
+                        class="recharts-text recharts-cartesian-axis-tick-value"
+                        fill="#666"
+                        height="30"
+                        orientation="bottom"
+                        stroke="none"
+                        text-anchor="middle"
+                        width="390"
+                        x="372.5"
+                        y="273"
+                      >
+                        <tspan
+                          dy="0.71em"
+                          x="372.5"
+                        >
+                          1975
+                        </tspan>
+                      </text>
+                    </g>
+                    <g
+                      class="recharts-layer recharts-cartesian-axis-tick"
+                    >
+                      <line
+                        class="recharts-cartesian-axis-tick-line"
+                        fill="none"
+                        height="30"
+                        orientation="bottom"
+                        stroke="#666"
+                        width="390"
+                        x="80"
+                        x1="470"
+                        x2="470"
+                        y="265"
+                        y1="271"
+                        y2="265"
+                      />
+                      <text
+                        class="recharts-text recharts-cartesian-axis-tick-value"
+                        fill="#666"
+                        height="30"
+                        orientation="bottom"
+                        stroke="none"
+                        text-anchor="middle"
+                        width="390"
+                        x="470"
+                        y="273"
+                      >
+                        <tspan
+                          dy="0.71em"
+                          x="470"
+                        >
+                          1980
+                        </tspan>
+                      </text>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <div
+                class="recharts-legend-wrapper"
+                style="position: absolute; width: 450px; height: auto; left: 20px; bottom: 5px;"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="large-wrapper"
+    >
+      <div
+        class="checkbox-wrapper"
+      >
+        <div>
+          <input
+            id="prefecture1"
+            name="prefecture1"
+            type="checkbox"
+            value="0"
+          />
+          <label
+            for="prefecture1"
+          >
+            北海道
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture2"
+            name="prefecture2"
+            type="checkbox"
+            value="1"
+          />
+          <label
+            for="prefecture2"
+          >
+            青森県
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture3"
+            name="prefecture3"
+            type="checkbox"
+            value="2"
+          />
+          <label
+            for="prefecture3"
+          >
+            岩手県
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture4"
+            name="prefecture4"
+            type="checkbox"
+            value="3"
+          />
+          <label
+            for="prefecture4"
+          >
+            宮城県
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture5"
+            name="prefecture5"
+            type="checkbox"
+            value="4"
+          />
+          <label
+            for="prefecture5"
+          >
+            秋田県
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture6"
+            name="prefecture6"
+            type="checkbox"
+            value="5"
+          />
+          <label
+            for="prefecture6"
+          >
+            山形県
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture7"
+            name="prefecture7"
+            type="checkbox"
+            value="6"
+          />
+          <label
+            for="prefecture7"
+          >
+            福島県
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture8"
+            name="prefecture8"
+            type="checkbox"
+            value="7"
+          />
+          <label
+            for="prefecture8"
+          >
+            茨城県
+          </label>
+        </div>
+      </div>
+      <div
+        class="selectbox-and-chart-wrapper"
+      >
+        <div
+          class="selectbox-wrapper"
+        >
+          <div>
+            <label>
+              表示中のデータ：
+            </label>
+            <select
+              id="selectedData"
+            >
+              <option
+                value="TP"
+              >
+                総人口
+              </option>
+              <option
+                value="YP"
+              >
+                年少人口
+              </option>
+              <option
+                value="WP"
+              >
+                生産年齢人口
+              </option>
+              <option
+                value="GP"
+              >
+                老年人口
+              </option>
+            </select>
+          </div>
+        </div>
+        <div
+          class="Chart-wrapper"
+          id="chart_container"
+        >
+          <div
+            class="recharts-wrapper"
+            role="region"
+            style="position: relative; cursor: default; width: 500px; height: 300px;"
+          >
+            <svg
+              class="recharts-surface"
+              height="300"
+              viewBox="0 0 500 300"
+              width="500"
+            >
+              <title />
+              <desc />
+              <defs>
+                <clippath
+                  id="recharts2-clip"
+                >
+                  <rect
+                    height="260"
+                    width="390"
+                    x="80"
+                    y="5"
+                  />
+                </clippath>
+              </defs>
+              <g
+                class="recharts-cartesian-grid"
+              >
+                <g
+                  class="recharts-cartesian-grid-horizontal"
+                >
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="80"
+                    x2="470"
+                    y="5"
+                    y1="5"
+                    y2="5"
+                  />
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="80"
+                    x2="470"
+                    y="5"
+                    y1="265"
+                    y2="265"
+                  />
+                </g>
+                <g
+                  class="recharts-cartesian-grid-vertical"
+                >
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="80"
+                    x2="80"
+                    y="5"
+                    y1="5"
+                    y2="265"
+                  />
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="177.5"
+                    x2="177.5"
+                    y="5"
+                    y1="5"
+                    y2="265"
+                  />
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="275"
+                    x2="275"
+                    y="5"
+                    y1="5"
+                    y2="265"
+                  />
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="372.5"
+                    x2="372.5"
+                    y="5"
+                    y1="5"
+                    y2="265"
+                  />
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="470"
+                    x2="470"
+                    y="5"
+                    y1="5"
+                    y2="265"
+                  />
+                </g>
+              </g>
+              <g
+                class="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"
+              >
+                <line
+                  class="recharts-cartesian-axis-line"
+                  fill="none"
+                  height="30"
+                  orientation="bottom"
+                  stroke="#666"
+                  width="390"
+                  x="80"
+                  x1="80"
+                  x2="470"
+                  y="265"
+                  y1="265"
+                  y2="265"
+                />
+                <g
+                  class="recharts-cartesian-axis-ticks"
+                >
+                  <g
+                    class="recharts-layer recharts-cartesian-axis-tick"
+                  >
+                    <line
+                      class="recharts-cartesian-axis-tick-line"
+                      fill="none"
+                      height="30"
+                      orientation="bottom"
+                      stroke="#666"
+                      width="390"
+                      x="80"
+                      x1="80"
+                      x2="80"
+                      y="265"
+                      y1="271"
+                      y2="265"
+                    />
+                    <text
+                      class="recharts-text recharts-cartesian-axis-tick-value"
+                      fill="#666"
+                      height="30"
+                      orientation="bottom"
+                      stroke="none"
+                      text-anchor="middle"
+                      width="390"
+                      x="80"
+                      y="273"
+                    >
+                      <tspan
+                        dy="0.71em"
+                        x="80"
+                      >
+                        1960
+                      </tspan>
+                    </text>
+                  </g>
+                  <g
+                    class="recharts-layer recharts-cartesian-axis-tick"
+                  >
+                    <line
+                      class="recharts-cartesian-axis-tick-line"
+                      fill="none"
+                      height="30"
+                      orientation="bottom"
+                      stroke="#666"
+                      width="390"
+                      x="80"
+                      x1="177.5"
+                      x2="177.5"
+                      y="265"
+                      y1="271"
+                      y2="265"
+                    />
+                    <text
+                      class="recharts-text recharts-cartesian-axis-tick-value"
+                      fill="#666"
+                      height="30"
+                      orientation="bottom"
+                      stroke="none"
+                      text-anchor="middle"
+                      width="390"
+                      x="177.5"
+                      y="273"
+                    >
+                      <tspan
+                        dy="0.71em"
+                        x="177.5"
+                      >
+                        1965
+                      </tspan>
+                    </text>
+                  </g>
+                  <g
+                    class="recharts-layer recharts-cartesian-axis-tick"
+                  >
+                    <line
+                      class="recharts-cartesian-axis-tick-line"
+                      fill="none"
+                      height="30"
+                      orientation="bottom"
+                      stroke="#666"
+                      width="390"
+                      x="80"
+                      x1="275"
+                      x2="275"
+                      y="265"
+                      y1="271"
+                      y2="265"
+                    />
+                    <text
+                      class="recharts-text recharts-cartesian-axis-tick-value"
+                      fill="#666"
+                      height="30"
+                      orientation="bottom"
+                      stroke="none"
+                      text-anchor="middle"
+                      width="390"
+                      x="275"
+                      y="273"
+                    >
+                      <tspan
+                        dy="0.71em"
+                        x="275"
+                      >
+                        1970
+                      </tspan>
+                    </text>
+                  </g>
+                  <g
+                    class="recharts-layer recharts-cartesian-axis-tick"
+                  >
+                    <line
+                      class="recharts-cartesian-axis-tick-line"
+                      fill="none"
+                      height="30"
+                      orientation="bottom"
+                      stroke="#666"
+                      width="390"
+                      x="80"
+                      x1="372.5"
+                      x2="372.5"
+                      y="265"
+                      y1="271"
+                      y2="265"
+                    />
+                    <text
+                      class="recharts-text recharts-cartesian-axis-tick-value"
+                      fill="#666"
+                      height="30"
+                      orientation="bottom"
+                      stroke="none"
+                      text-anchor="middle"
+                      width="390"
+                      x="372.5"
+                      y="273"
+                    >
+                      <tspan
+                        dy="0.71em"
+                        x="372.5"
+                      >
+                        1975
+                      </tspan>
+                    </text>
+                  </g>
+                  <g
+                    class="recharts-layer recharts-cartesian-axis-tick"
+                  >
+                    <line
+                      class="recharts-cartesian-axis-tick-line"
+                      fill="none"
+                      height="30"
+                      orientation="bottom"
+                      stroke="#666"
+                      width="390"
+                      x="80"
+                      x1="470"
+                      x2="470"
+                      y="265"
+                      y1="271"
+                      y2="265"
+                    />
+                    <text
+                      class="recharts-text recharts-cartesian-axis-tick-value"
+                      fill="#666"
+                      height="30"
+                      orientation="bottom"
+                      stroke="none"
+                      text-anchor="middle"
+                      width="390"
+                      x="470"
+                      y="273"
+                    >
+                      <tspan
+                        dy="0.71em"
+                        x="470"
+                      >
+                        1980
+                      </tspan>
+                    </text>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div
+              class="recharts-legend-wrapper"
+              style="position: absolute; width: 450px; height: auto; left: 20px; bottom: 5px;"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`click checkbox and change selectbox 7`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <span
+      aria-hidden="true"
+      id="recharts_measurement_span"
+      style="position: absolute; top: -20000px; left: 0px; padding: 0px; margin: 0px; white-space: pre;"
+    >
+      10000
+    </span>
+    <div>
+      <div
+        class="large-wrapper"
+      >
+        <div
+          class="checkbox-wrapper"
+        >
+          <div>
+            <input
+              id="prefecture1"
+              name="prefecture1"
+              type="checkbox"
+              value="0"
+            />
+            <label
+              for="prefecture1"
+            >
+              北海道
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture2"
+              name="prefecture2"
+              type="checkbox"
+              value="1"
+            />
+            <label
+              for="prefecture2"
+            >
+              青森県
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture3"
+              name="prefecture3"
+              type="checkbox"
+              value="2"
+            />
+            <label
+              for="prefecture3"
+            >
+              岩手県
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture4"
+              name="prefecture4"
+              type="checkbox"
+              value="3"
+            />
+            <label
+              for="prefecture4"
+            >
+              宮城県
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture5"
+              name="prefecture5"
+              type="checkbox"
+              value="4"
+            />
+            <label
+              for="prefecture5"
+            >
+              秋田県
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture6"
+              name="prefecture6"
+              type="checkbox"
+              value="5"
+            />
+            <label
+              for="prefecture6"
+            >
+              山形県
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture7"
+              name="prefecture7"
+              type="checkbox"
+              value="6"
+            />
+            <label
+              for="prefecture7"
+            >
+              福島県
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture8"
+              name="prefecture8"
+              type="checkbox"
+              value="7"
+            />
+            <label
+              for="prefecture8"
+            >
+              茨城県
+            </label>
+          </div>
+        </div>
+        <div
+          class="selectbox-and-chart-wrapper"
+        >
+          <div
+            class="selectbox-wrapper"
+          >
+            <div>
+              <label>
+                表示中のデータ：
+              </label>
+              <select
+                id="selectedData"
+              >
+                <option
+                  value="TP"
+                >
+                  総人口
+                </option>
+                <option
+                  value="YP"
+                >
+                  年少人口
+                </option>
+                <option
+                  value="WP"
+                >
+                  生産年齢人口
+                </option>
+                <option
+                  value="GP"
+                >
+                  老年人口
+                </option>
+              </select>
+            </div>
+          </div>
+          <div
+            class="Chart-wrapper"
+            id="chart_container"
+          >
+            <div
+              class="recharts-wrapper"
+              role="region"
+              style="position: relative; cursor: default; width: 500px; height: 300px;"
+            >
+              <svg
+                class="recharts-surface"
+                height="300"
+                viewBox="0 0 500 300"
+                width="500"
+              >
+                <title />
+                <desc />
+                <defs>
+                  <clippath
+                    id="recharts2-clip"
+                  >
+                    <rect
+                      height="260"
+                      width="390"
+                      x="80"
+                      y="5"
+                    />
+                  </clippath>
+                </defs>
+                <g
+                  class="recharts-cartesian-grid"
+                >
+                  <g
+                    class="recharts-cartesian-grid-horizontal"
+                  >
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="80"
+                      x2="470"
+                      y="5"
+                      y1="5"
+                      y2="5"
+                    />
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="80"
+                      x2="470"
+                      y="5"
+                      y1="265"
+                      y2="265"
+                    />
+                  </g>
+                  <g
+                    class="recharts-cartesian-grid-vertical"
+                  >
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="80"
+                      x2="80"
+                      y="5"
+                      y1="5"
+                      y2="265"
+                    />
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="177.5"
+                      x2="177.5"
+                      y="5"
+                      y1="5"
+                      y2="265"
+                    />
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="275"
+                      x2="275"
+                      y="5"
+                      y1="5"
+                      y2="265"
+                    />
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="372.5"
+                      x2="372.5"
+                      y="5"
+                      y1="5"
+                      y2="265"
+                    />
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="470"
+                      x2="470"
+                      y="5"
+                      y1="5"
+                      y2="265"
+                    />
+                  </g>
+                </g>
+                <g
+                  class="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"
+                >
+                  <line
+                    class="recharts-cartesian-axis-line"
+                    fill="none"
+                    height="30"
+                    orientation="bottom"
+                    stroke="#666"
+                    width="390"
+                    x="80"
+                    x1="80"
+                    x2="470"
+                    y="265"
+                    y1="265"
+                    y2="265"
+                  />
+                  <g
+                    class="recharts-cartesian-axis-ticks"
+                  >
+                    <g
+                      class="recharts-layer recharts-cartesian-axis-tick"
+                    >
+                      <line
+                        class="recharts-cartesian-axis-tick-line"
+                        fill="none"
+                        height="30"
+                        orientation="bottom"
+                        stroke="#666"
+                        width="390"
+                        x="80"
+                        x1="80"
+                        x2="80"
+                        y="265"
+                        y1="271"
+                        y2="265"
+                      />
+                      <text
+                        class="recharts-text recharts-cartesian-axis-tick-value"
+                        fill="#666"
+                        height="30"
+                        orientation="bottom"
+                        stroke="none"
+                        text-anchor="middle"
+                        width="390"
+                        x="80"
+                        y="273"
+                      >
+                        <tspan
+                          dy="0.71em"
+                          x="80"
+                        >
+                          1960
+                        </tspan>
+                      </text>
+                    </g>
+                    <g
+                      class="recharts-layer recharts-cartesian-axis-tick"
+                    >
+                      <line
+                        class="recharts-cartesian-axis-tick-line"
+                        fill="none"
+                        height="30"
+                        orientation="bottom"
+                        stroke="#666"
+                        width="390"
+                        x="80"
+                        x1="177.5"
+                        x2="177.5"
+                        y="265"
+                        y1="271"
+                        y2="265"
+                      />
+                      <text
+                        class="recharts-text recharts-cartesian-axis-tick-value"
+                        fill="#666"
+                        height="30"
+                        orientation="bottom"
+                        stroke="none"
+                        text-anchor="middle"
+                        width="390"
+                        x="177.5"
+                        y="273"
+                      >
+                        <tspan
+                          dy="0.71em"
+                          x="177.5"
+                        >
+                          1965
+                        </tspan>
+                      </text>
+                    </g>
+                    <g
+                      class="recharts-layer recharts-cartesian-axis-tick"
+                    >
+                      <line
+                        class="recharts-cartesian-axis-tick-line"
+                        fill="none"
+                        height="30"
+                        orientation="bottom"
+                        stroke="#666"
+                        width="390"
+                        x="80"
+                        x1="275"
+                        x2="275"
+                        y="265"
+                        y1="271"
+                        y2="265"
+                      />
+                      <text
+                        class="recharts-text recharts-cartesian-axis-tick-value"
+                        fill="#666"
+                        height="30"
+                        orientation="bottom"
+                        stroke="none"
+                        text-anchor="middle"
+                        width="390"
+                        x="275"
+                        y="273"
+                      >
+                        <tspan
+                          dy="0.71em"
+                          x="275"
+                        >
+                          1970
+                        </tspan>
+                      </text>
+                    </g>
+                    <g
+                      class="recharts-layer recharts-cartesian-axis-tick"
+                    >
+                      <line
+                        class="recharts-cartesian-axis-tick-line"
+                        fill="none"
+                        height="30"
+                        orientation="bottom"
+                        stroke="#666"
+                        width="390"
+                        x="80"
+                        x1="372.5"
+                        x2="372.5"
+                        y="265"
+                        y1="271"
+                        y2="265"
+                      />
+                      <text
+                        class="recharts-text recharts-cartesian-axis-tick-value"
+                        fill="#666"
+                        height="30"
+                        orientation="bottom"
+                        stroke="none"
+                        text-anchor="middle"
+                        width="390"
+                        x="372.5"
+                        y="273"
+                      >
+                        <tspan
+                          dy="0.71em"
+                          x="372.5"
+                        >
+                          1975
+                        </tspan>
+                      </text>
+                    </g>
+                    <g
+                      class="recharts-layer recharts-cartesian-axis-tick"
+                    >
+                      <line
+                        class="recharts-cartesian-axis-tick-line"
+                        fill="none"
+                        height="30"
+                        orientation="bottom"
+                        stroke="#666"
+                        width="390"
+                        x="80"
+                        x1="470"
+                        x2="470"
+                        y="265"
+                        y1="271"
+                        y2="265"
+                      />
+                      <text
+                        class="recharts-text recharts-cartesian-axis-tick-value"
+                        fill="#666"
+                        height="30"
+                        orientation="bottom"
+                        stroke="none"
+                        text-anchor="middle"
+                        width="390"
+                        x="470"
+                        y="273"
+                      >
+                        <tspan
+                          dy="0.71em"
+                          x="470"
+                        >
+                          1980
+                        </tspan>
+                      </text>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <div
+                class="recharts-legend-wrapper"
+                style="position: absolute; width: 450px; height: auto; left: 20px; bottom: 5px;"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="large-wrapper"
+    >
+      <div
+        class="checkbox-wrapper"
+      >
+        <div>
+          <input
+            id="prefecture1"
+            name="prefecture1"
+            type="checkbox"
+            value="0"
+          />
+          <label
+            for="prefecture1"
+          >
+            北海道
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture2"
+            name="prefecture2"
+            type="checkbox"
+            value="1"
+          />
+          <label
+            for="prefecture2"
+          >
+            青森県
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture3"
+            name="prefecture3"
+            type="checkbox"
+            value="2"
+          />
+          <label
+            for="prefecture3"
+          >
+            岩手県
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture4"
+            name="prefecture4"
+            type="checkbox"
+            value="3"
+          />
+          <label
+            for="prefecture4"
+          >
+            宮城県
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture5"
+            name="prefecture5"
+            type="checkbox"
+            value="4"
+          />
+          <label
+            for="prefecture5"
+          >
+            秋田県
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture6"
+            name="prefecture6"
+            type="checkbox"
+            value="5"
+          />
+          <label
+            for="prefecture6"
+          >
+            山形県
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture7"
+            name="prefecture7"
+            type="checkbox"
+            value="6"
+          />
+          <label
+            for="prefecture7"
+          >
+            福島県
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture8"
+            name="prefecture8"
+            type="checkbox"
+            value="7"
+          />
+          <label
+            for="prefecture8"
+          >
+            茨城県
+          </label>
+        </div>
+      </div>
+      <div
+        class="selectbox-and-chart-wrapper"
+      >
+        <div
+          class="selectbox-wrapper"
+        >
+          <div>
+            <label>
+              表示中のデータ：
+            </label>
+            <select
+              id="selectedData"
+            >
+              <option
+                value="TP"
+              >
+                総人口
+              </option>
+              <option
+                value="YP"
+              >
+                年少人口
+              </option>
+              <option
+                value="WP"
+              >
+                生産年齢人口
+              </option>
+              <option
+                value="GP"
+              >
+                老年人口
+              </option>
+            </select>
+          </div>
+        </div>
+        <div
+          class="Chart-wrapper"
+          id="chart_container"
+        >
+          <div
+            class="recharts-wrapper"
+            role="region"
+            style="position: relative; cursor: default; width: 500px; height: 300px;"
+          >
+            <svg
+              class="recharts-surface"
+              height="300"
+              viewBox="0 0 500 300"
+              width="500"
+            >
+              <title />
+              <desc />
+              <defs>
+                <clippath
+                  id="recharts2-clip"
+                >
+                  <rect
+                    height="260"
+                    width="390"
+                    x="80"
+                    y="5"
+                  />
+                </clippath>
+              </defs>
+              <g
+                class="recharts-cartesian-grid"
+              >
+                <g
+                  class="recharts-cartesian-grid-horizontal"
+                >
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="80"
+                    x2="470"
+                    y="5"
+                    y1="5"
+                    y2="5"
+                  />
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="80"
+                    x2="470"
+                    y="5"
+                    y1="265"
+                    y2="265"
+                  />
+                </g>
+                <g
+                  class="recharts-cartesian-grid-vertical"
+                >
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="80"
+                    x2="80"
+                    y="5"
+                    y1="5"
+                    y2="265"
+                  />
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="177.5"
+                    x2="177.5"
+                    y="5"
+                    y1="5"
+                    y2="265"
+                  />
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="275"
+                    x2="275"
+                    y="5"
+                    y1="5"
+                    y2="265"
+                  />
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="372.5"
+                    x2="372.5"
+                    y="5"
+                    y1="5"
+                    y2="265"
+                  />
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="470"
+                    x2="470"
+                    y="5"
+                    y1="5"
+                    y2="265"
+                  />
+                </g>
+              </g>
+              <g
+                class="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"
+              >
+                <line
+                  class="recharts-cartesian-axis-line"
+                  fill="none"
+                  height="30"
+                  orientation="bottom"
+                  stroke="#666"
+                  width="390"
+                  x="80"
+                  x1="80"
+                  x2="470"
+                  y="265"
+                  y1="265"
+                  y2="265"
+                />
+                <g
+                  class="recharts-cartesian-axis-ticks"
+                >
+                  <g
+                    class="recharts-layer recharts-cartesian-axis-tick"
+                  >
+                    <line
+                      class="recharts-cartesian-axis-tick-line"
+                      fill="none"
+                      height="30"
+                      orientation="bottom"
+                      stroke="#666"
+                      width="390"
+                      x="80"
+                      x1="80"
+                      x2="80"
+                      y="265"
+                      y1="271"
+                      y2="265"
+                    />
+                    <text
+                      class="recharts-text recharts-cartesian-axis-tick-value"
+                      fill="#666"
+                      height="30"
+                      orientation="bottom"
+                      stroke="none"
+                      text-anchor="middle"
+                      width="390"
+                      x="80"
+                      y="273"
+                    >
+                      <tspan
+                        dy="0.71em"
+                        x="80"
+                      >
+                        1960
+                      </tspan>
+                    </text>
+                  </g>
+                  <g
+                    class="recharts-layer recharts-cartesian-axis-tick"
+                  >
+                    <line
+                      class="recharts-cartesian-axis-tick-line"
+                      fill="none"
+                      height="30"
+                      orientation="bottom"
+                      stroke="#666"
+                      width="390"
+                      x="80"
+                      x1="177.5"
+                      x2="177.5"
+                      y="265"
+                      y1="271"
+                      y2="265"
+                    />
+                    <text
+                      class="recharts-text recharts-cartesian-axis-tick-value"
+                      fill="#666"
+                      height="30"
+                      orientation="bottom"
+                      stroke="none"
+                      text-anchor="middle"
+                      width="390"
+                      x="177.5"
+                      y="273"
+                    >
+                      <tspan
+                        dy="0.71em"
+                        x="177.5"
+                      >
+                        1965
+                      </tspan>
+                    </text>
+                  </g>
+                  <g
+                    class="recharts-layer recharts-cartesian-axis-tick"
+                  >
+                    <line
+                      class="recharts-cartesian-axis-tick-line"
+                      fill="none"
+                      height="30"
+                      orientation="bottom"
+                      stroke="#666"
+                      width="390"
+                      x="80"
+                      x1="275"
+                      x2="275"
+                      y="265"
+                      y1="271"
+                      y2="265"
+                    />
+                    <text
+                      class="recharts-text recharts-cartesian-axis-tick-value"
+                      fill="#666"
+                      height="30"
+                      orientation="bottom"
+                      stroke="none"
+                      text-anchor="middle"
+                      width="390"
+                      x="275"
+                      y="273"
+                    >
+                      <tspan
+                        dy="0.71em"
+                        x="275"
+                      >
+                        1970
+                      </tspan>
+                    </text>
+                  </g>
+                  <g
+                    class="recharts-layer recharts-cartesian-axis-tick"
+                  >
+                    <line
+                      class="recharts-cartesian-axis-tick-line"
+                      fill="none"
+                      height="30"
+                      orientation="bottom"
+                      stroke="#666"
+                      width="390"
+                      x="80"
+                      x1="372.5"
+                      x2="372.5"
+                      y="265"
+                      y1="271"
+                      y2="265"
+                    />
+                    <text
+                      class="recharts-text recharts-cartesian-axis-tick-value"
+                      fill="#666"
+                      height="30"
+                      orientation="bottom"
+                      stroke="none"
+                      text-anchor="middle"
+                      width="390"
+                      x="372.5"
+                      y="273"
+                    >
+                      <tspan
+                        dy="0.71em"
+                        x="372.5"
+                      >
+                        1975
+                      </tspan>
+                    </text>
+                  </g>
+                  <g
+                    class="recharts-layer recharts-cartesian-axis-tick"
+                  >
+                    <line
+                      class="recharts-cartesian-axis-tick-line"
+                      fill="none"
+                      height="30"
+                      orientation="bottom"
+                      stroke="#666"
+                      width="390"
+                      x="80"
+                      x1="470"
+                      x2="470"
+                      y="265"
+                      y1="271"
+                      y2="265"
+                    />
+                    <text
+                      class="recharts-text recharts-cartesian-axis-tick-value"
+                      fill="#666"
+                      height="30"
+                      orientation="bottom"
+                      stroke="none"
+                      text-anchor="middle"
+                      width="390"
+                      x="470"
+                      y="273"
+                    >
+                      <tspan
+                        dy="0.71em"
+                        x="470"
+                      >
+                        1980
+                      </tspan>
+                    </text>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div
+              class="recharts-legend-wrapper"
+              style="position: absolute; width: 450px; height: auto; left: 20px; bottom: 5px;"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`click checkbox and change selectbox 8`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <span
+      aria-hidden="true"
+      id="recharts_measurement_span"
+      style="position: absolute; top: -20000px; left: 0px; padding: 0px; margin: 0px; white-space: pre;"
+    >
+      10000
+    </span>
+    <div>
+      <div
+        class="large-wrapper"
+      >
+        <div
+          class="checkbox-wrapper"
+        >
+          <div>
+            <input
+              id="prefecture1"
+              name="prefecture1"
+              type="checkbox"
+              value="0"
+            />
+            <label
+              for="prefecture1"
+            >
+              北海道
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture2"
+              name="prefecture2"
+              type="checkbox"
+              value="1"
+            />
+            <label
+              for="prefecture2"
+            >
+              青森県
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture3"
+              name="prefecture3"
+              type="checkbox"
+              value="2"
+            />
+            <label
+              for="prefecture3"
+            >
+              岩手県
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture4"
+              name="prefecture4"
+              type="checkbox"
+              value="3"
+            />
+            <label
+              for="prefecture4"
+            >
+              宮城県
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture5"
+              name="prefecture5"
+              type="checkbox"
+              value="4"
+            />
+            <label
+              for="prefecture5"
+            >
+              秋田県
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture6"
+              name="prefecture6"
+              type="checkbox"
+              value="5"
+            />
+            <label
+              for="prefecture6"
+            >
+              山形県
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture7"
+              name="prefecture7"
+              type="checkbox"
+              value="6"
+            />
+            <label
+              for="prefecture7"
+            >
+              福島県
+            </label>
+          </div>
+          <div>
+            <input
+              id="prefecture8"
+              name="prefecture8"
+              type="checkbox"
+              value="7"
+            />
+            <label
+              for="prefecture8"
+            >
+              茨城県
+            </label>
+          </div>
+        </div>
+        <div
+          class="selectbox-and-chart-wrapper"
+        >
+          <div
+            class="selectbox-wrapper"
+          >
+            <div>
+              <label>
+                表示中のデータ：
+              </label>
+              <select
+                id="selectedData"
+              >
+                <option
+                  value="TP"
+                >
+                  総人口
+                </option>
+                <option
+                  value="YP"
+                >
+                  年少人口
+                </option>
+                <option
+                  value="WP"
+                >
+                  生産年齢人口
+                </option>
+                <option
+                  value="GP"
+                >
+                  老年人口
+                </option>
+              </select>
+            </div>
+          </div>
+          <div
+            class="Chart-wrapper"
+            id="chart_container"
+          >
+            <div
+              class="recharts-wrapper"
+              role="region"
+              style="position: relative; cursor: default; width: 500px; height: 300px;"
+            >
+              <svg
+                class="recharts-surface"
+                height="300"
+                viewBox="0 0 500 300"
+                width="500"
+              >
+                <title />
+                <desc />
+                <defs>
+                  <clippath
+                    id="recharts2-clip"
+                  >
+                    <rect
+                      height="260"
+                      width="390"
+                      x="80"
+                      y="5"
+                    />
+                  </clippath>
+                </defs>
+                <g
+                  class="recharts-cartesian-grid"
+                >
+                  <g
+                    class="recharts-cartesian-grid-horizontal"
+                  >
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="80"
+                      x2="470"
+                      y="5"
+                      y1="5"
+                      y2="5"
+                    />
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="80"
+                      x2="470"
+                      y="5"
+                      y1="265"
+                      y2="265"
+                    />
+                  </g>
+                  <g
+                    class="recharts-cartesian-grid-vertical"
+                  >
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="80"
+                      x2="80"
+                      y="5"
+                      y1="5"
+                      y2="265"
+                    />
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="177.5"
+                      x2="177.5"
+                      y="5"
+                      y1="5"
+                      y2="265"
+                    />
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="275"
+                      x2="275"
+                      y="5"
+                      y1="5"
+                      y2="265"
+                    />
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="372.5"
+                      x2="372.5"
+                      y="5"
+                      y1="5"
+                      y2="265"
+                    />
+                    <line
+                      fill="none"
+                      height="260"
+                      offset="[object Object]"
+                      stroke="#ccc"
+                      stroke-dasharray="3 3"
+                      width="390"
+                      x="80"
+                      x1="470"
+                      x2="470"
+                      y="5"
+                      y1="5"
+                      y2="265"
+                    />
+                  </g>
+                </g>
+                <g
+                  class="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"
+                >
+                  <line
+                    class="recharts-cartesian-axis-line"
+                    fill="none"
+                    height="30"
+                    orientation="bottom"
+                    stroke="#666"
+                    width="390"
+                    x="80"
+                    x1="80"
+                    x2="470"
+                    y="265"
+                    y1="265"
+                    y2="265"
+                  />
+                  <g
+                    class="recharts-cartesian-axis-ticks"
+                  >
+                    <g
+                      class="recharts-layer recharts-cartesian-axis-tick"
+                    >
+                      <line
+                        class="recharts-cartesian-axis-tick-line"
+                        fill="none"
+                        height="30"
+                        orientation="bottom"
+                        stroke="#666"
+                        width="390"
+                        x="80"
+                        x1="80"
+                        x2="80"
+                        y="265"
+                        y1="271"
+                        y2="265"
+                      />
+                      <text
+                        class="recharts-text recharts-cartesian-axis-tick-value"
+                        fill="#666"
+                        height="30"
+                        orientation="bottom"
+                        stroke="none"
+                        text-anchor="middle"
+                        width="390"
+                        x="80"
+                        y="273"
+                      >
+                        <tspan
+                          dy="0.71em"
+                          x="80"
+                        >
+                          1960
+                        </tspan>
+                      </text>
+                    </g>
+                    <g
+                      class="recharts-layer recharts-cartesian-axis-tick"
+                    >
+                      <line
+                        class="recharts-cartesian-axis-tick-line"
+                        fill="none"
+                        height="30"
+                        orientation="bottom"
+                        stroke="#666"
+                        width="390"
+                        x="80"
+                        x1="177.5"
+                        x2="177.5"
+                        y="265"
+                        y1="271"
+                        y2="265"
+                      />
+                      <text
+                        class="recharts-text recharts-cartesian-axis-tick-value"
+                        fill="#666"
+                        height="30"
+                        orientation="bottom"
+                        stroke="none"
+                        text-anchor="middle"
+                        width="390"
+                        x="177.5"
+                        y="273"
+                      >
+                        <tspan
+                          dy="0.71em"
+                          x="177.5"
+                        >
+                          1965
+                        </tspan>
+                      </text>
+                    </g>
+                    <g
+                      class="recharts-layer recharts-cartesian-axis-tick"
+                    >
+                      <line
+                        class="recharts-cartesian-axis-tick-line"
+                        fill="none"
+                        height="30"
+                        orientation="bottom"
+                        stroke="#666"
+                        width="390"
+                        x="80"
+                        x1="275"
+                        x2="275"
+                        y="265"
+                        y1="271"
+                        y2="265"
+                      />
+                      <text
+                        class="recharts-text recharts-cartesian-axis-tick-value"
+                        fill="#666"
+                        height="30"
+                        orientation="bottom"
+                        stroke="none"
+                        text-anchor="middle"
+                        width="390"
+                        x="275"
+                        y="273"
+                      >
+                        <tspan
+                          dy="0.71em"
+                          x="275"
+                        >
+                          1970
+                        </tspan>
+                      </text>
+                    </g>
+                    <g
+                      class="recharts-layer recharts-cartesian-axis-tick"
+                    >
+                      <line
+                        class="recharts-cartesian-axis-tick-line"
+                        fill="none"
+                        height="30"
+                        orientation="bottom"
+                        stroke="#666"
+                        width="390"
+                        x="80"
+                        x1="372.5"
+                        x2="372.5"
+                        y="265"
+                        y1="271"
+                        y2="265"
+                      />
+                      <text
+                        class="recharts-text recharts-cartesian-axis-tick-value"
+                        fill="#666"
+                        height="30"
+                        orientation="bottom"
+                        stroke="none"
+                        text-anchor="middle"
+                        width="390"
+                        x="372.5"
+                        y="273"
+                      >
+                        <tspan
+                          dy="0.71em"
+                          x="372.5"
+                        >
+                          1975
+                        </tspan>
+                      </text>
+                    </g>
+                    <g
+                      class="recharts-layer recharts-cartesian-axis-tick"
+                    >
+                      <line
+                        class="recharts-cartesian-axis-tick-line"
+                        fill="none"
+                        height="30"
+                        orientation="bottom"
+                        stroke="#666"
+                        width="390"
+                        x="80"
+                        x1="470"
+                        x2="470"
+                        y="265"
+                        y1="271"
+                        y2="265"
+                      />
+                      <text
+                        class="recharts-text recharts-cartesian-axis-tick-value"
+                        fill="#666"
+                        height="30"
+                        orientation="bottom"
+                        stroke="none"
+                        text-anchor="middle"
+                        width="390"
+                        x="470"
+                        y="273"
+                      >
+                        <tspan
+                          dy="0.71em"
+                          x="470"
+                        >
+                          1980
+                        </tspan>
+                      </text>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <div
+                class="recharts-legend-wrapper"
+                style="position: absolute; width: 450px; height: auto; left: 20px; bottom: 5px;"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="large-wrapper"
+    >
+      <div
+        class="checkbox-wrapper"
+      >
+        <div>
+          <input
+            id="prefecture1"
+            name="prefecture1"
+            type="checkbox"
+            value="0"
+          />
+          <label
+            for="prefecture1"
+          >
+            北海道
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture2"
+            name="prefecture2"
+            type="checkbox"
+            value="1"
+          />
+          <label
+            for="prefecture2"
+          >
+            青森県
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture3"
+            name="prefecture3"
+            type="checkbox"
+            value="2"
+          />
+          <label
+            for="prefecture3"
+          >
+            岩手県
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture4"
+            name="prefecture4"
+            type="checkbox"
+            value="3"
+          />
+          <label
+            for="prefecture4"
+          >
+            宮城県
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture5"
+            name="prefecture5"
+            type="checkbox"
+            value="4"
+          />
+          <label
+            for="prefecture5"
+          >
+            秋田県
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture6"
+            name="prefecture6"
+            type="checkbox"
+            value="5"
+          />
+          <label
+            for="prefecture6"
+          >
+            山形県
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture7"
+            name="prefecture7"
+            type="checkbox"
+            value="6"
+          />
+          <label
+            for="prefecture7"
+          >
+            福島県
+          </label>
+        </div>
+        <div>
+          <input
+            id="prefecture8"
+            name="prefecture8"
+            type="checkbox"
+            value="7"
+          />
+          <label
+            for="prefecture8"
+          >
+            茨城県
+          </label>
+        </div>
+      </div>
+      <div
+        class="selectbox-and-chart-wrapper"
+      >
+        <div
+          class="selectbox-wrapper"
+        >
+          <div>
+            <label>
+              表示中のデータ：
+            </label>
+            <select
+              id="selectedData"
+            >
+              <option
+                value="TP"
+              >
+                総人口
+              </option>
+              <option
+                value="YP"
+              >
+                年少人口
+              </option>
+              <option
+                value="WP"
+              >
+                生産年齢人口
+              </option>
+              <option
+                value="GP"
+              >
+                老年人口
+              </option>
+            </select>
+          </div>
+        </div>
+        <div
+          class="Chart-wrapper"
+          id="chart_container"
+        >
+          <div
+            class="recharts-wrapper"
+            role="region"
+            style="position: relative; cursor: default; width: 500px; height: 300px;"
+          >
+            <svg
+              class="recharts-surface"
+              height="300"
+              viewBox="0 0 500 300"
+              width="500"
+            >
+              <title />
+              <desc />
+              <defs>
+                <clippath
+                  id="recharts2-clip"
+                >
+                  <rect
+                    height="260"
+                    width="390"
+                    x="80"
+                    y="5"
+                  />
+                </clippath>
+              </defs>
+              <g
+                class="recharts-cartesian-grid"
+              >
+                <g
+                  class="recharts-cartesian-grid-horizontal"
+                >
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="80"
+                    x2="470"
+                    y="5"
+                    y1="5"
+                    y2="5"
+                  />
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="80"
+                    x2="470"
+                    y="5"
+                    y1="265"
+                    y2="265"
+                  />
+                </g>
+                <g
+                  class="recharts-cartesian-grid-vertical"
+                >
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="80"
+                    x2="80"
+                    y="5"
+                    y1="5"
+                    y2="265"
+                  />
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="177.5"
+                    x2="177.5"
+                    y="5"
+                    y1="5"
+                    y2="265"
+                  />
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="275"
+                    x2="275"
+                    y="5"
+                    y1="5"
+                    y2="265"
+                  />
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="372.5"
+                    x2="372.5"
+                    y="5"
+                    y1="5"
+                    y2="265"
+                  />
+                  <line
+                    fill="none"
+                    height="260"
+                    offset="[object Object]"
+                    stroke="#ccc"
+                    stroke-dasharray="3 3"
+                    width="390"
+                    x="80"
+                    x1="470"
+                    x2="470"
+                    y="5"
+                    y1="5"
+                    y2="265"
+                  />
+                </g>
+              </g>
+              <g
+                class="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"
+              >
+                <line
+                  class="recharts-cartesian-axis-line"
+                  fill="none"
+                  height="30"
+                  orientation="bottom"
+                  stroke="#666"
+                  width="390"
+                  x="80"
+                  x1="80"
+                  x2="470"
+                  y="265"
+                  y1="265"
+                  y2="265"
+                />
+                <g
+                  class="recharts-cartesian-axis-ticks"
+                >
+                  <g
+                    class="recharts-layer recharts-cartesian-axis-tick"
+                  >
+                    <line
+                      class="recharts-cartesian-axis-tick-line"
+                      fill="none"
+                      height="30"
+                      orientation="bottom"
+                      stroke="#666"
+                      width="390"
+                      x="80"
+                      x1="80"
+                      x2="80"
+                      y="265"
+                      y1="271"
+                      y2="265"
+                    />
+                    <text
+                      class="recharts-text recharts-cartesian-axis-tick-value"
+                      fill="#666"
+                      height="30"
+                      orientation="bottom"
+                      stroke="none"
+                      text-anchor="middle"
+                      width="390"
+                      x="80"
+                      y="273"
+                    >
+                      <tspan
+                        dy="0.71em"
+                        x="80"
+                      >
+                        1960
+                      </tspan>
+                    </text>
+                  </g>
+                  <g
+                    class="recharts-layer recharts-cartesian-axis-tick"
+                  >
+                    <line
+                      class="recharts-cartesian-axis-tick-line"
+                      fill="none"
+                      height="30"
+                      orientation="bottom"
+                      stroke="#666"
+                      width="390"
+                      x="80"
+                      x1="177.5"
+                      x2="177.5"
+                      y="265"
+                      y1="271"
+                      y2="265"
+                    />
+                    <text
+                      class="recharts-text recharts-cartesian-axis-tick-value"
+                      fill="#666"
+                      height="30"
+                      orientation="bottom"
+                      stroke="none"
+                      text-anchor="middle"
+                      width="390"
+                      x="177.5"
+                      y="273"
+                    >
+                      <tspan
+                        dy="0.71em"
+                        x="177.5"
+                      >
+                        1965
+                      </tspan>
+                    </text>
+                  </g>
+                  <g
+                    class="recharts-layer recharts-cartesian-axis-tick"
+                  >
+                    <line
+                      class="recharts-cartesian-axis-tick-line"
+                      fill="none"
+                      height="30"
+                      orientation="bottom"
+                      stroke="#666"
+                      width="390"
+                      x="80"
+                      x1="275"
+                      x2="275"
+                      y="265"
+                      y1="271"
+                      y2="265"
+                    />
+                    <text
+                      class="recharts-text recharts-cartesian-axis-tick-value"
+                      fill="#666"
+                      height="30"
+                      orientation="bottom"
+                      stroke="none"
+                      text-anchor="middle"
+                      width="390"
+                      x="275"
+                      y="273"
+                    >
+                      <tspan
+                        dy="0.71em"
+                        x="275"
+                      >
+                        1970
+                      </tspan>
+                    </text>
+                  </g>
+                  <g
+                    class="recharts-layer recharts-cartesian-axis-tick"
+                  >
+                    <line
+                      class="recharts-cartesian-axis-tick-line"
+                      fill="none"
+                      height="30"
+                      orientation="bottom"
+                      stroke="#666"
+                      width="390"
+                      x="80"
+                      x1="372.5"
+                      x2="372.5"
+                      y="265"
+                      y1="271"
+                      y2="265"
+                    />
+                    <text
+                      class="recharts-text recharts-cartesian-axis-tick-value"
+                      fill="#666"
+                      height="30"
+                      orientation="bottom"
+                      stroke="none"
+                      text-anchor="middle"
+                      width="390"
+                      x="372.5"
+                      y="273"
+                    >
+                      <tspan
+                        dy="0.71em"
+                        x="372.5"
+                      >
+                        1975
+                      </tspan>
+                    </text>
+                  </g>
+                  <g
+                    class="recharts-layer recharts-cartesian-axis-tick"
+                  >
+                    <line
+                      class="recharts-cartesian-axis-tick-line"
+                      fill="none"
+                      height="30"
+                      orientation="bottom"
+                      stroke="#666"
+                      width="390"
+                      x="80"
+                      x1="470"
+                      x2="470"
+                      y="265"
+                      y1="271"
+                      y2="265"
+                    />
+                    <text
+                      class="recharts-text recharts-cartesian-axis-tick-value"
+                      fill="#666"
+                      height="30"
+                      orientation="bottom"
+                      stroke="none"
+                      text-anchor="middle"
+                      width="390"
+                      x="470"
+                      y="273"
+                    >
+                      <tspan
+                        dy="0.71em"
+                        x="470"
+                      >
+                        1980
+                      </tspan>
+                    </text>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div
+              class="recharts-legend-wrapper"
+              style="position: absolute; width: 450px; height: auto; left: 20px; bottom: 5px;"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
 exports[`renders test 1`] = `
 <div
   className="App"
@@ -9217,6 +13489,7 @@ exports[`renders test 1`] = `
             >
               <option
                 defaultValue="TP"
+                value="TP"
               >
                 総人口
               </option>
