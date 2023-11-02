@@ -19,7 +19,7 @@ function Prefecture() {
     fetch("https://opendata.resas-portal.go.jp/api/v1/prefectures", {
       method: "GET",
       headers: {
-        "X-API-KEY": "x6Cenztodyveqvc5b4RlSf0Dvzwgv5sTK2jgyo05",
+        "X-API-KEY": process.env.REACT_APP_API_KEY,
       },
     })
       .then((res) => res.json())

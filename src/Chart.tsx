@@ -1,3 +1,4 @@
+import { env } from "process";
 import React, { useState, useEffect } from "react";
 import {
   LineChart,
@@ -9,6 +10,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
+
 
 //年度ごとのデータを取得する上で必要なインターフェース
 interface anual {
@@ -150,7 +152,7 @@ function Chart(prop: { selecteddata: string; selectedPrefecture: prefData[] }) {
       fetch(url, {
         method: "GET",
         headers: {
-          "X-API-KEY": "x6Cenztodyveqvc5b4RlSf0Dvzwgv5sTK2jgyo05",
+          "X-API-KEY": process.env.REACT_APP_API_KEY,
         },
       })
         .then((res) => res.json())
